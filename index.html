@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./images/cards-thin.svg">
+    <script src="https://kit.fontawesome.com/601dbb5ff6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1>Blackjack</h1>
@@ -13,7 +15,10 @@
     <p id="cards-el">Cards:</p>
     <p id="sum-el">Sum:</p>
     <button onclick="startGame()">START GAME</button>
-    <button onclick="newCard()">NEW CARD</button>
+    <button onclick="newCard()" >
+        <i class="fa-solid fa-cards-blank fa-beat"></i>
+        CARD
+    </button>
     <p id="player-el"></p>
     <script src="index.js"></script>
 </body>
